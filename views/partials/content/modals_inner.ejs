@@ -1,0 +1,73 @@
+<!--modals-->
+<% if (images.length > 0) { %>
+    <% for(var i = 0; i < images.length; i++) { %>
+        <div class="portfolio-modal modal fade" id="<%= portf + i %>" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body" itemscope itemtype="<%= itemtype %>Organization">
+                                <h2 class itemprop="legalName"><%= titles[i] %></h2>
+                                <hr class="star-primary">
+                                <img src="img/portfolio/<%= images[i] %>" class="img-responsive img-centered" alt="<%= alt[i] %>" itemprop="logo">
+                                <div itemscope itemtype="<%= itemtype %>Action"><%- modal[i] %></div>
+                                <ul class="list-inline item-details" itemscope itemtype="<%= itemtype %>Action">
+                                    <% if (client[i] == "Pennsylvania State University-Penn State Berks")  { %>
+                                        <% var forWho = "College: "; %>
+                                        <% var didWhat = "Graduated: "; %>
+                                    <% } else { %>
+                                        <% var forWho = "Client: "; %>
+                                        <% var didWhat = "Services: "; %>
+                                    <% } %>
+                                    <li itemprop="alternateName"><%= forWho %></li>
+                                        <strong><a itemscope itemtype="<%= itemtype %>Organization" itemprop="legalName"><%= client[i]%></a>
+                                        </strong>
+                                    </li>
+                                    <li itemscope itemtype="<%= itemtype %>Action">Date:
+                                        <strong><a><time><%= date[i] %></time></a>
+                                        </strong>
+                                    </li>
+                                    <li itemscope itemtype="<%= itemtype %>Offer" itemprop="alternateName"><%= didWhat %>
+                                        <strong><a itemprop="businessFunction"><%= service[i] %> </a></strong>
+                                    </li>
+                                    <% if(client[i] == "Boyertown Area Multi Services") { %>
+                                        <li itemscope itemtype="<%= itemtype %>Offer">Documentation: 
+                                            <strong><a itemprop="URL" target ="_blank" hreflang="en-us" href="https://docs.google.com/document/d/1D8raTrh5Zq2kqR1LIPmVFSQh0yWONDoeFy1A_8eacV8/pub">
+                                                Report
+                                            </a></strong>
+                                        </li>
+                                        <li itemscope itemtype="<%= itemtype %>Offer">
+                                            <strong><a itemprop="URL" target="_blank" hreflang="en-us" href="https://docs.google.com/presentation/d/16m-FYoE5VqLkfwwnwuvtoTKWHV1QbqzqeL1K4RNDqqI/pub?start=false&loop=false&delayms=3000">
+                                                Powerpoint
+                                            </a></strong>
+                                        </li>
+                                    <% } else if (client[i] == "St Francis Home Shillington") { %>
+                                        <li itemscope itemtype="<%= itemtype %>Offer">Documentation: 
+                                            <strong><a itemprop="URL" target ="_blank" hreflang="en-us" href="https://docs.google.com/document/d/1fh4gFTd2jBrKrz71WnEReSh9ZFErBBY9ly044VUqytk/pub">
+                                                Report
+                                            </a></strong>
+                                        </li>
+                                        <li itemscope itemtype="<%= itemtype %>Offer">
+                                            <strong><a itemprop="URL" target="_blank" hreflang="en-us" href="https://docs.google.com/presentation/d/1WhGXM8GmRbehsrwlh8Sg9vowPF-d-VsI1xQpyObWOgQ/pub?start=false&loop=false&delayms=3000">
+                                                Powerpoint
+                                            </a></strong>
+                                        </li>
+                                    <% } else { %>
+                                    <% } %>
+                                </ul>
+                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <% } %>
+<% } %>
+        

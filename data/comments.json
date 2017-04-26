@@ -1,0 +1,13 @@
+[
+    {
+    "name":"Cyril",
+    "title":"Testing",
+    "message":"This is a sample piece of data sent from the api"
+    },
+    {
+    "name":"Millay",
+    "title":"Testing #2",
+    "message":"Another sample piece of data from api"
+    }
+]
+ 

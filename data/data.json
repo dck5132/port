@@ -1,0 +1,66 @@
+{
+    "modals": [
+        {
+            "images": [
+                "knowledgent.v3.cropped.png",
+                "boyertown.png",
+                "etny.v3.png",
+                "etny.v3.png",
+                "francis.v3.cropped.png",
+                "berks.v3.cropped.jpg"
+            ],
+            "alt": [
+                "Knowledgent",
+                "Boyertown Area Multi-Services",
+                "Everglades Technologies New York",
+                "Everglades Technologies New York",
+                "St. Francis Home Shillington",
+                "Penn State Berks University"
+            ],
+            "modal_title": [
+                "Web Developer/IT",
+                "Student Consultant",
+                "Independent Web App Developer",
+                "Web App Development Intern",
+                "Student Consultant",
+                "Student"
+            ],
+            "modal_inside": [
+                "<p itemprop='description'>As a web developer and member of the IT department, my main responsibilty is developing new user facing, scalable features and optimizing existing functionality for internal websites. Providing support for existing internal and 3rd party websites by efficiently resolving bugs and other user problems. Rapid troubleshooting of software/hardware in devices and the preparation of new devices for users. </p>",
+                "<p itemprop='description'>As part of a group of 4 students, I was responsible for researching solutions for the client and providing technical documentation. Our recommendations involved improving SEO, increasing revanue through web advertising, reducing loading speed and new scalable features to reduce time spent on existing tasks. </p>",
+                "<p itemprop='description'>I was responsible for updating a previously designed quote application. Throughout the project I made several revisions to the application after meeting with the client. I worked from a remote location while attending college as a full time senior.</p>",
+                "<p itemprop='description'>I was responsible for two web applications. First designing and developing an application that would monitor clients IP addresses by pinging them and returning the results on a Google Map. It also sent emails to specified email addresses to notify them of a significant change in the ping function's response. The second was designing and developing a quote application which would allows customers to obtain a price estimate of building a conference room. </p>",
+                "<p itemprop='description'>As part of a group of 5 students, I was the main point of contact for our client. In addition I was responsible for the documentation, design and development of their new website. </p>",
+                "<h3 itemprop='alternateName'> Education </h3><p itemprop='description'>I enrolled in Pennsylvania State University at the Berks Campus with the original intention of graduating with a degree in Computer Science. Along the way I realized that I enjoyed more working in Information Sciences and Technology and switched over. I graduated in May 2016 with a Bachelors of Science in Information Sciences and Technology with a major GPA of 3.5.</p><h3 itemprop='alternateName'>Club Activity</h3><p itemprop='description'> In my sophomore year I was a co founder and vice president of the Berks Billiards Club. In my junior year I became president of the Billiards Club. While in this role I was responsible for organizing and coordinating events. In addition I delegated responsibilities to other staff members. </p><h3 itemprop='alternateName'>Volunteer Activities</h3><p itemprop='description'> I was a volunteer at Maimonides Medical Center in the summer of 2012. I was assigned to the ER department and was responsible for assisting with inventory management and communications. </p> <p itemprop='description'> While in college I volunteered to help clean Blue Marsh Lake in Spring 2014. I also volunteered to assist with the first ROY G. BIV color run held at Penn State Berks campus. </p>"
+            ],
+            "modal_date": [
+                "Jun 2016 - Present",
+                "Jan 2016 - May 2016",
+                "Oct 2015",
+                "Jun 2015 – Aug 2015",
+                "Jan 2015 – May 2015",
+                "2012 - 2016"
+            ],
+            "modal_client": [
+                "Knowledgent",
+                "Boyertown Area Multi Services",
+                "Everglades Technologies",
+                "Everglades Technologies",
+                "St Francis Home Shillington",
+                "Pennsylvania State University-Penn State Berks"
+            ],
+            "modal_service": [
+                "Web Development, Web Administration, IT",
+                "Web Design, Web Consultation",
+                "Web Development",
+                "Web Development, Web Application Development",
+                "Web Design, Web Development, Web Consultation",
+                "Bachelor's Degree of Science, Information Technology"
+            ]
+        }
+    ],
+    
+    "about": "<p> My name is Cyril Kalikin and I enjoy designing and developing web applications to solve challenging problems and learning about new software. I graduated from the Pennsylvania State University in May 2016 with a Bachelors Degree in Information Sciences and Technology.  While providing consulting and website development as part of a group for St Francis Home, I improved my customer service skills and programming skills. </p> <p> A few months later I did my internship at Everglades Technologies. During this internship I was a consultant/developer with the company and developed two web applications. Throughout the internship I worked successfully with a wide range of clients between those with knowledge of application development to those without an IT background. After my internship with Everglades Technologies ended I was brought back as an independent developer while attending college as a full time student. I am currently employed at Knowledgent as an IT/web developer.</p> <p> I am seeking employment so that I can continue to develop my skills in a web development related field. During my time as an intern, consultant and as an web developer I felt most satisfied when an application was successfully designed and developed to solve a client's problems. My goal is to seek further employment as a web developer or an IT consultant as I feel my determination, knowledge and skills would be an asset to a job in this area.</p>",
+    
+    "skills": "Web Developer - Node.js, Express.js, JQuery, Bootstrap, HTML, CSS, Bootstrap, PHP, SQL"
+}

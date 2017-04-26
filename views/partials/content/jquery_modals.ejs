@@ -1,0 +1,893 @@
+<!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div><!--<rl>-->
+                </div><!--<lr>-->
+            </div><!--<close-modal>-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>On Page Load</h2>
+                            <hr class="star-primary">
+                            <img src="./img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
+                            <p id="content-1"></p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div><!--<modal-body>-->
+                    </div><!--<col-lg-8 col-lg-offset-2>-->
+                </div><!--<row>-->
+            </div><!--<container>-->
+        </div><!--<modal-content>-->
+    </div><!--<portfolio-modal modal fade>-->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div><!--<rl>-->
+                </div><!--<lr>-->
+            </div><!--<close-modal>-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body" id="content-2-1">
+                            <h2>Select Menu</h2>
+                            <hr class="star-primary">
+                            <img src="./img/portfolio/cake.png" class="img-responsive img-centered" alt="">
+                            <p>(NOTE): The buttons below will reset each other in order to display the code working properly</p>
+                            <ul class="list-inline item-details" value="choice">
+                                <li>
+                                    <strong><a href="#" id="sel" value="Reset">Reset to Default</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="sel-1" href="#">All Paragraphs</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="sel-2" href="#">Selector ID</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="sel-3" href="#">Intro ID</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="sel-4" href="#">First Paragraph</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="sel-5" href="#">Headings Except Selector ID </a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <h1 id="intro-2-1">Introduction to jQuery Selectors and Filters</h1>
+                    		<p>Selectors and Filters provide a way of finding and extracting information from Web pages.</p>
+                    		
+                    		<h2 id="selector">Selectors Intro</h2>
+                    		<p>Selectors are used to select parts of the Web page using a common CSS-style syntax.</p>
+                    		<p>For example, <code>$("p")</code> will select all of the paragraph tags in a document and return them as a list that
+                    			can be further operated upon.</p>
+                    				
+                    		<h2>Filters Intro</h2>
+                    		<p>Filters are used to further refine the results returned from selectors.</p>
+                    		<p>For example, <code>$("p:first")</code> will select the first paragraph in the returned set from <code>$("p")</code>.</p>
+                    		<ul class="list-inline item-details" value="choice">
+                    		    <li>
+                                    <strong><a href="#" id="sel" value="Reset">Reset to Default</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="sel-6" href="#">A Class</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="sel-7" href="#">Example-2-1 ID</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="sel-8" href="#">Paragraphs B Class </a>
+                                    </strong>
+                                </li>
+                                 <li>
+                                    <strong><a id="sel-9" href="#">Last Paragraph </a>
+                                    </strong>
+                                </li>
+                    		</ul>
+                    		<h2>Basic Selectors </h2>
+                    		<p>Selectors are used to do exactly what their name implies: select content within a Web page.</p>
+                            <p>They use a very CSS-like syntax in order to do this. To take a few examples:</p>
+                            <ul id="list-2-1" class="list">
+                                <li class="a"><code>$("<i>tag</i>")</code>: Select all of the &lt;tag&gt; elements</li>
+                                <li class="a"><code>$("<i>.className</i>")</code>: Select all elements that have the <i>className</i> class applied</li>
+                                <li class="b"><code>$("#identifier")</code>: Select the element with the id of <i>identifier</i></li>
+                                <li class="b"><code>$("<i>tag.className</i>")</code>: Select all &lt;tag&gt; elements that have the <i>className</i> class
+                                    applied</li>
+                            </ul>
+                            <ul class="list-inline item-details" value="choice">
+                                <li>
+                                    <strong><a href="#" id="sel" value="Reset">Reset to Default</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="sel-10" href="#">Even Paragraphs </a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="sel-11" href="#">Odd Paragraphs </a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="sel-12" href="#">A Tag Index > 1 </a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="sel-13" href="#">All Paragraphs != Second Index </a>
+                                    </strong>
+                                </li>
+                            </ul>
+                    		<h2>Basic Filters</h2>
+                    		<p>jQuery filters are used to refine the results that are returned from selectors.</p>
+                            <p>A few examples:</p>
+                            <ul id="list-2-2" class="list">
+                                <li class="a"><code>$("p:first")</code>: of the returned &lt;p&gt; tags, select the first one</li>
+                                <li class="a"><code>$("p:even")</code>: select the even-number &lt;p&gt; tags starting at index 0 instead of 1</li>
+                                <li class="b"><code>$("a:gt(1)")</code>: of the &lt;a&gt; tags, select all those after the 0th and 1st</li>
+                                <li class="b"><code>$("p:not(p:eq(2))")</code>: select all the &lt;p&gt; tags except the one at index 2</li>
+                            </ul>
+                            <div id="example-2-1" class="example">
+                                <p class="a">This is paragraph 1</p>
+                                <p id="para-2-11">This is paragraph 2</p>
+                                <p class="b">This is paragraph 3</p>
+                                <p id="para-2-14" lang="en-us">This is paragraph 4</p>
+                                <p id="para-2-15" lang="en-gb">This is paragraph 5</p>
+                    		</div>
+                    		<ul class="list-inline item-details" value="choice">
+                                <li>
+                                    <strong><a href="#" id="sel" value="Reset">Reset to Default</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="sel-14" href="#">Direct Descendants P of Div </a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="sel-15" href="#">Div After UL Tag </a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="sel-16" href="#">All P Tags After Example Divs </a>
+                                    </strong>
+                                </li>
+                            </ul>
+                    		<h2>jQuery Hierarchy Selectors</h2>
+                    		<p>To select elements based on their position in the document tree, use the Hierarchy Selectors. The Hierarchy Selectors work by examining the position of target elements relative to other elements:</p>
+                            <ul id="list-2-3" class="list">
+                                <li><code>$("parent > child")</code>: selects "child" elements that are immediate descendants of the "parent"</li>
+                                <li><code>$("ancestor descendant")</code>: selects "descendant" elements as long as they have an "ancestor" element
+                                    somewhere above them</li>
+                                <li><code>$("prev + next")</code>: selects the "next" element if it is immediately preceded by a "prev" element</li>
+                                <li><code>$("prev ~ siblings")</code>: selects all "siblings" elements that come after a "prev" element</li>
+                            </ul>
+                            <div id="example-2-2" class="example">
+                                <p class="a">This is paragraph 1</p>
+                                <p id="para-2-21">This is paragraph 2</p>
+                                <p class="b">This is paragraph 3</p>
+                                <p id="para-2-24" lang="en-us">This is paragraph 4</p>
+                                <p id="para-2-25" lang="en-gb">This is paragraph 5</p>
+                            </div>
+                            <ul class="list-inline item-details" value="choice">
+                                <li>
+                                    <strong><a href="#" id="sel" value="Reset">Reset to Default</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="sel-17" href="#">P Tag with Class </a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="sel-18" href="#">P Tag with ID para1 </a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="sel-19" href="#">P Tag starting with para/containing en </a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <h2>Using Attribute Filters</h2>
+                            <p>Attribute filters are used to select elements in the Web page that have attribute values matching a given set of
+                                criteria.</p>
+                            <p>Some examples include:</p>
+                            <ul id="list-2-4" class="list">
+                                <li class="a">[<i>attr</i>]: element has an attribute named <i>attr</i></li>
+                                <li class="a">[<i>attr</i>=val]: element has an attribute whose value is "val"</li>
+                                <li class="b">[<i>attr</i>^=val]: element has an attribute whose value starts with "val"</li>
+                            </ul>
+                            <div id="example-2-3" class="example">
+                                <p class="a">This is paragraph 1</p>
+                                <p id="para2-31">This is paragraph 2</p>
+                                <p class="b">This is paragraph 3</p>
+                                <p id="para2-34" lang="en-us">This is paragraph 4</p>
+                                <p id="para2-35" lang="en-gb">This is paragraph 5</p>
+                            </div>
+                             <ul class="list-inline item-details" value="choice">
+                                <li>
+                                    <strong><a href="#" id="sel" value="Reset">Reset to Default</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="sel-20" href="#">P Tag containing 3 </a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="sel-21" href="#">P Tag with Parent Element </a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="sel-22" href="#">P Tag Class A </a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="sel-23" href="#">First Child P Tag </a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="sel-24" href="#">Last Unique P Tag </a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="sel-25" href="#">Every 2nd P Tag </a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <h2>Using Child, Visibility, and Content Filters</h2>
+                            <p>These selectors are used to retrieve content that matches certain conditions, such as whether they contain certain
+                                content, whether they are visible/hidden, or whether they are in a certain position within their parent.</p>
+                            <ul id="list-2-5" class="list">
+                                <li class="a"><code>:contains('<i>text</i>')</code>: select elements that contain specific text</li>
+                                <li class="a"><code>:parent</code>: select elements have at least one child node (element or text)</li>
+                                <li class="a"><code>:has(<i>selector</i>)</code>: select elements that contain at least one element that matches the selector</li>
+                                <li class="a"><code>:first-child</code>: select elements that are the first child of their parents</li>
+                                <li class="a"><code>:last-of-type</code>: select elements that are the last of their type among siblings</li>
+                                <li class="a"><code>:nth-child()</code>: select elements that are the nth child of their parent</li>
+                            </ul>
+                            <div id="example-2-4" class="example">
+                                <p class="a">This is paragraph 1</p>
+                                <p id="para2-41">This is paragraph 2</p>
+                                <p class="b">This is paragraph 3</p>
+                                <p id="para2-44" lang="en-us">This is paragraph 4</p>
+                                <p id="para2-45" lang="en-gb">This is paragraph 5</p>
+                            </div>
+                            <ul class="list-inline item-details" value="choice">
+                                <li>
+                                    <strong><a href="#" id="sel" value="Reset">Reset to Default</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="sel-26" href="#">Children of DIV below </a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="sel-27" href="#">Prev, Next and Parent Elements </a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="sel-28" href="#">Find ID 2-54 </a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="sel-29" href="#">First Child P Tag </a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <h2>Using jQuery Document Traversal Features</h2>
+                            <p>The DOM of a Web page is organized as a tree structure. The elements in the page have family-like names to refer
+                                to their positions relative to other elements.</p>
+                            <p>For example, the HEAD and BODY tags are "children" of the HTML tag, and are "siblings" of each other. They have the
+                                HTML tag as their "parent". jQuery provides functions for navigating the document tree and processing sets of
+                                elements, such as:</p>
+                            <ul id="list5" class="list">
+                                <li><code>children()</code>: Retrieves all the child elements of the matched elements, except text nodes</li>
+                                <li><code>prev(), next(), parent()</code>: used to traverse the family relationships of an element</li>
+                                <li><code>find()</code>: search within a given element to find elements that match a selector expression</li>
+                                <li><code>each()</code>: loops over a set of matched elements and calls a function for each one</li>
+                            </ul>
+                            <div id="example-2-5" class="example">
+                                <p class="a">This is paragraph 1</p>
+                                <p id="para2-51">This is paragraph 2</p>
+                                <p class="b">This is paragraph 3</p>
+                                <p id="para2-54" lang="en-us">This is paragraph 4</p>
+                                <p id="para2-55" lang="en-gb">This is paragraph 5</p>
+                            </div><!--<example-2-5>-->
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div><!--<modal-body>-->
+                    </div><!--<col-lg-8 col-lg-offset-2>-->
+                </div><!--<row>-->
+            </div><!--<container>-->
+        </div><!--<modal-content>-->
+    </div><!--<"portfolio-modal modal fade>-->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div><!--<rl>-->
+                </div><!--<lr>-->
+            </div><!--<close-modal>-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body" id="content-3-1">
+                            <h2>Creating Text/HTMl</h2>
+                            <hr class="star-primary">
+                            <img src="./img/portfolio/circus.png" class="img-responsive img-centered" alt="">
+                            <h1 id="intro-3-1">Using jQuery to Create/Change Content</h1>
+                    		<span> These buttons will only affect each other if they are in the same element ID</span>
+                    		<ul class="list-inline item-details" value="choice">
+                    			<li>
+                                    <strong><a href="#" id="sel" value="Reset">Reset to Default</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="cre-1" href="#">Hello There</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="cre-2" href="#">Creation Prepend</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="cre-3" href="#">Heading via HTML</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="cre-4" href="#">Heading via Text</a>
+                                    </strong>
+                                </li>
+                    		</ul>
+                            <p>jQuery makes it very easy to create new page content and change existing page content.</p>
+                            <h2 id="creation">Content Creation</h2>
+                            <p>Creating new content is as simple as passing a string of HTML to the $() function.</p>
+                            <p>For example, <code>$("&lt;p&gt;")</code> creates a new, empty paragraph tag. To add new content to the paragraph,
+                                you could simply write <code>$("&lt;p&gt;").append("&lt;em&gt;Hello there&lt;/em&gt;")</code>.</p>
+                            <h2 id="changing">Changing Content</h2>
+                            <p>There are multiple ways to change page content using jQuery, depending on your needs.</p>
+                            <p>The <code>html()</code> and <code>text()</code> functions can be used to directly manipulate the contents of elements,
+                                and there are ways to control how content can be inserted and moved around in the page.</p>
+                    		<div id="example-3-1" class = "example" value="blank"></div><!--<example-3-1>-->
+                    		<p>Content can be inserted at various points in the document, relative to existing content, using a variety of jQuery
+                                methods built for each purpose.</p>
+                            <p>There are two sets of insertion functions: one set for inserting content inside of other content, and one for inserting
+                                outside of other content.</p>
+                                <ul class="list-inline item-details" value="choice">
+                    			<li>
+                                    <strong><a href="#" id="sel" value="Reset">Reset to Default</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="cre-5" href="#">Append Last P to First P</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="cre-6" href="#">Add ** Before All P</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="cre-7" href="#">Add Line After First P</a>
+                                    </strong>
+                                </li>
+                    		</ul>
+                            <h2>Inserting Document Content</h2>
+                            <ul id="list-3-2-1" class = "list">
+                                <li class="a"><code>append()</code>: Appends content to the inside of the matched elements</li>
+                                <li class="a"><code>prepend()</code>: Prepends content to the inside of the matched elements</li>
+                                <li class="a"><code>appendTo()</code>: Appends the specified content to the inside of the matched elements</li>
+                                <li class="a"><code>prependTo()</code>: Prepends the specified content to the inside of the matched elements</li>
+                            </ul>
+                            <ul id="list-3-2-2" class="list">
+                                <li class="a"><code>after()</code>: Appends content to the outside of the matched elements</li>
+                                <li class="a"><code>before()</code>: Prepends content to the outside of the matched elements</li>
+                                <li class="a"><code>insertAfter()</code>: Takes the specified content and appends it outside of the specified elements</li>
+                                <li class="a"><code>insertBefore()</code>: Takes the specified content and prepends it outside of the specified elements</li>
+                            </ul>
+                            <div id="example-3-2" class = "example" value ="standard">
+                                <p class="a">This is paragraph 1</p>
+                                <p id="para3-21">This is paragraph 2</p>
+                                <p class="b">This is paragraph 3</p>
+                                <p id="para3-24" lang="en-us">This is paragraph 4</p>
+                                <p id="para3-25" lang="en-gb">This is paragraph 5</p>
+                            </div><!--<example-3-2>-->
+                            <ul class="list-inline item-details" value="choice">
+                    			<li>
+                                    <strong><a href="#" id="sel" value="Reset">Reset to Default</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="cre-8" href="#">Wrap All P in Div</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="cre-9" href="#">Empty Div</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="cre-10" href="#">Detach from Div</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="cre-11" href="#">Replace With Function</a>
+                                    </strong>
+                                </li>
+                    		</ul>
+                            <h2>Altering Document Content</h2>
+                            <p>In addition to creating and inserting content, the ability to alter the current content of a page is a key scenario
+                                in Web development. jQuery has functions tailored to specific situations where content needs to be altered:</p>
+                            <ul id="list-3-3" class="list">
+                                <li><code>wrap()</code>: wrap the matched elements with the specified content</li>
+                                <li><code>wrapAll()</code>: wrap content around the matched elements as a group(1 div compared to 5)</li>
+                                <li><code>unWrap()</code>: remove the parents from the matched elements</li>
+                                <li><code>empty()</code>: remove all the child elements from the matched elements</li>
+                                <li><code>remove()</code>: removes elements from the page, including any embedded data and event handlers</li>
+                                <li><code>detach()</code>: removes elements from the page, but maintains embedded data and event handlers</li>
+                                <li><code>replaceAll()</code>: replaces the matched elements with the specified content</li>
+                                <li><code>replaceWith()</code>: replaces matched elements with content or the results of a callback function</li>
+                            </ul>
+                            <div id="example-3-3" class="example" value ="standard">
+                                <p class="a">This is paragraph 1</p>
+                                <p id="para3-31">This is paragraph 2</p>
+                                <p class="b">This is paragraph 3</p>
+                                <p id="para3-34" lang="en-us">This is paragraph 4</p>
+                                <p id="para3-35" lang="en-gb">This is paragraph 5</p>
+                            </div><!--<example-3-3>-->
+                            <ul class="list-inline item-details" value="choice">
+                    			<li>
+                                    <strong><a href="#" id="sel" value="Reset">Reset to Default</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="cre-12" href="#">Show Alts</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="cre-13" href="#">On Hover Show Title</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="cre-14" href="#">On Click IMG Open New Tab</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="cre-15" href="#">Remove Link</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="cre-16" href="#">All Spring</a>
+                                    </strong>
+                                </li>
+                    		</ul>
+                            <h2>Manipulating Attributes</h2>
+                            <p>To read or change element attributes, use the <code>attr()</code> function. <code>removeAttr()</code> can be used
+                                to remove attributes</p>
+                            <ul id="list-3-4" class="list">
+                                <li><code>attr()</code>: get the value of an attribute</li>
+                                <li><code>attr(<i>name</i>, <i>val</i>)</code>: set the <i>name</i> attribute to <i>val</i></li>
+                                <li><code>attr(<i>{ name: val ... }</i>)</code>: set multiple attributes in one call</li>
+                                <li><code>removeAttr(<i>name</i>)</code>: remove the attribute from the element</li>
+                            </ul>
+                            <div id="example-3-4" class="col-lg-12 example">
+                                <a href="./img/sample/Grass.jpg"><img src="./img/sample/Grass.jpg" alt="Grass" class="img-3-4"/></a>
+                                <a href="./img/sample/Leaf.jpg"><img src="./img/sample/Leaf.jpg" alt="Leaf"  class="img-3-4"/></a>
+                                <a href="./img/sample/Spring.jpg"><img src="./img/sample/Spring.jpg" alt="Spring"  class="img-3-4"/></a>
+                                <a href="./img/sample/Water.jpg"><img src="./img/sample/Water.jpg" alt="Water"  class="img-3-4"/></a>
+                            </div><!--<example-3-4>-->
+                            <ul class="list-inline item-details" value="choice">
+                    			<li>
+                                    <strong><a href="#" id="sel" value="Reset">Reset to Default</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="cre-17" href="#">CSS Chain</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="cre-18" href="#">CSS Group Properties</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="cre-19" href="#">Add Class</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="cre-20" href="#">Remove Class</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="cre-21" href="#">Toggle Class</a>
+                                    </strong>
+                                </li>
+                    		</ul>
+                            <h2>CSS Properties and Class Manipulation</h2>
+                            <p>Getting and setting CSS information is accomplished via a set of dedicated jQuery functions.</p>
+                            <p>In addition to setting and retrieving individual CSS properties, there are methods for easily changing the CSS classes
+                                assigned to page elements that work in a cross-browser manner.</p>
+                            <ul id="list-3-5" class="list">
+                                <li><code>css()</code>: get or set CSS properties on the matched elements in a variety of ways</li>
+                                <li><code>hasClass(className)</code>: determine whether a page element has a certain class</li>
+                                <li><code>addClass(className | function)</code>: add the given CSS class to the elements in the matched set</li>
+                                <li><code>removeClass(className | function)</code>: remove the given CSS class from the elements in the matched set</li>
+                                <li><code>toggeClass(className | function)</code>: add or remove the given CSS class to the elements in the matched set depending on whether it is already there</li>
+                            </ul>
+                            <div id="example-3-5" class="example" value ="standard">
+                                <p class="a">This is paragraph 1</p>
+                                <p id="para3-51">This is paragraph 2</p>
+                                <p class="b">This is paragraph 3</p>
+                                <p id="para3-54" lang="en-us">This is paragraph 4</p>
+                                <p id="para3-55" lang="en-gb">This is paragraph 5</p>
+                            </div><!--<example-3-5>-->
+                            <ul class="list-inline item-details" value="choice">
+                    			<li>
+                                    <strong><a href="#" id="sel" value="Reset">Reset to Default</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="cre-22" href="#">Add Data Attr</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="cre-23" href="#">Remove Data Attr</a>
+                                    </strong>
+                                </li>
+                    		</ul>
+                            <h2>Using the Data Methods</h2>
+                            <p>jQuery can associate arbitrary data with page elements. Use the controls above to exercise the data() and removeData()
+                                functions on the example DIV element</p>
+                            <div id="example-3-6" class="example" data-key3="data attribute">
+                            </div><!--<example-3-6>-->
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div><!--<modal-body>-->
+                    </div><!--<col-lg-8 col-lg-offset-2>-->
+                </div><!--<row>-->
+            </div><!--<container>-->
+        </div><!--<modal-content>-->
+    </div><!--<portfolio-modal modal fade>-->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div><!--<rl>-->
+                </div><!--<lr>-->
+            </div><!--<close-modal>-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body" id="content-4-1">
+                            <h2>Animation</h2>
+                            <hr class="star-primary">
+                            <img src="./img/portfolio/game.png" class="img-responsive img-centered" alt="">
+                            <h1 id="intro-4-1">Quick jQuery Animation Intro</h1>
+                    		<span><p>Simple Animation Choices</p></span>
+                    		<ul class=list-inline item-details value="choice">
+                    			<li>
+                    			    <strong><a href="#" id="sel" value="Reset">Reset to Default</a>
+                    			    </strong>
+                    			</li>
+                    			<li><strong><a id="ani-1" href="#">Start Animation</a>
+                    			    </strong>
+                    			</li>
+                    		</ul>
+                            <p>jQuery provides some basic animation features for showing and hiding elements, as well as a low-level animation function
+                                that can be used to animate several CSS properties (as long as they are numeric).</p>
+                            <div id = "animButton">
+                                <div id="testDiv">
+                                </div><!--<testDiv>-->
+                            </div>
+                            <ul class=list-inline item-details value="choice">
+                    			<li>
+                    			    <strong><a href="#" id="sel" value="Reset">Reset to Default</a>
+                    			    </strong>
+                    			</li>
+                    			<li><strong><a id="ani-2" href="#">Show Div</a>
+                    			    </strong>
+                    			</li>
+                    			<li><strong><a id="ani-3" href="#">Hide Div</a>
+                    			    </strong>
+                    			</li>
+                    			<li><strong><a id="ani-4" href="#">Toggle Show/Hide Div</a>
+                    			    </strong>
+                    			</li>
+                    		</ul>
+                            <h2>Using the show and hide effects</h2>
+                            <p>The show() and hide() functions are the simplest way to reveal and hide elements. This can be done with an optional
+                                animation.</p>
+                            <ul id ="list-4-2" class="list">
+                                <li><code>show()</code>: Reveals the matched elements using an optional animation</li>
+                                <li><code>hide()</code>: Hides the matched elements using an optional animation</li>
+                                <li><code>toggle()</code>: Toggles the visible state of the matched elements using an optional animation</li>
+                            </ul>
+                            <div id="anim-4-2" class="evtbox">
+                            </div><!--<anim-4-2>-->
+                            <ul class=list-inline item-details value="choice">
+                    			<li>
+                    			    <strong><a href="#" id="sel" value="Reset">Reset to Default</a>
+                    			    </strong>
+                    			</li>
+                    			<li><strong><a id="ani-5" href="#">Fade in</a>
+                    			    </strong>
+                    			</li>
+                    			<li><strong><a id="ani-6" href="#">Fade out</a>
+                    			    </strong>
+                    			</li>
+                    			<li><strong><a id="ani-7" href="#">30% Opacity</a>
+                    			    </strong>
+                    			</li>
+                    			<li><strong><a id="ani-8" href="#">100% Opacity</a>
+                    			    </strong>
+                    			</li>
+                    			<li><strong><a id="ani-9" href="#">Pulsate</a>
+                    			    </strong>
+                    			</li>
+                    		</ul>
+                            <h2>Element Fading Routines</h2>
+                            <p>Page elements can be faded in or out using a set of dedicated jQuery functions.</p>
+                            <ul id = "list-4-3" class = "list">
+                                <li><code>fadeIn()</code> fades the element in from being invisible</li>
+                                <li><code>fadeOut()</code> fades the element out and removes it from layout</li>
+                                <li><code>fadeTo()</code> fades the element to a specified opacity</li>
+                            </ul>
+                            <div id="anim-4-3" class="evtbox">
+                            </div><!--<anim-4-3>-->
+                            <ul class=list-inline item-details value="choice">
+                    			<li>
+                    			    <strong><a href="#" id="sel" value="Reset">Reset to Default</a>
+                    			    </strong>
+                    			</li>
+                    			<li><strong><a id="ani-10" href="#">Slide Div Up</a>
+                    			    </strong>
+                    			</li>
+                    			<li><strong><a id="ani-11" href="#">Slide Div Down</a>
+                    			    </strong>
+                    			</li>
+                    			<li><strong><a id="ani-12" href="#">Toggle Slide Div</a>
+                    			    </strong>
+                    			</li>
+                    		</ul>
+                            <h2>Using the slide functions</h2>
+                            <p>Elements can also be shown and revealed via the slide functions. A common use case for this feature is when, for
+                                example, you have a message to display to the user that can be dismissed once read.</p>
+                            <ul id="list-4-4" class="list">
+                                <li><code>slideUp()</code>: animates the height of the matched elements to 0 (or whatever CSS min-height is set to).
+                                    When the animation finishes, the <code>display</code> CSS property of the element is set to 'none' to remove
+                                    the element from the page layout</li>
+                                <li><code>slideDown()</code>: animates the height of the matched elements to reveal them</li>
+                                <li><code>slideToggle()</code>: toggles the state of the matched elements, either sliding them up or down depending
+                                    on their current state</li>
+                            </ul>
+                            <div id="anim-4-4">
+                            </div><!--<anim-4-4>-->
+                            <ul class=list-inline item-details value="choice">
+                    			<li>
+                    			    <strong><a href="#" id="sel" value="Reset">Reset to Default</a>
+                    			    </strong>
+                    			</li>
+                    			<li><strong><a id="ani-13" href="#">Widen Div</a>
+                    			    </strong>
+                    			</li>
+                    			<li><strong><a id="ani-14" href="#">Increase Font Size</a>
+                    			    </strong>
+                    			</li>
+                    			<li><strong><a id="ani-15" href="#">Offset Left(Move Right)</a>
+                    			    </strong>
+                    			</li>
+                    			<li><strong><a id="ani-16" href="#">All 3 At Once</a>
+                    			    </strong>
+                    			</li>
+                    		</ul>
+                            <h2>Animating an Element's Properties</h2>
+                            <p>The <code>animate()</code> function provides a way to create smooth animations on the properties of an object.</p>
+                            <p>Click the buttons below this <code>&lt;div&gt;</code> element to see how various properties can be animated.</p>
+                            <div id="anim-4-5">Animate Me
+                            </div><!--<anim-4-5>-->
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div><!--<modal-body>-->
+                    </div><!--<col-lg-8 col-lg-offset-2>-->
+                </div><!--<row>-->
+            </div><!--<container>-->
+        </div><!--<modal-content>-->
+    </div><!--<portfolio-modal modal fade>-->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div><!--<rl>-->
+                </div><!--<lr>-->
+            </div><!--<close-modal>-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body" id="content-5-1">
+                            <h2>Event Handling</h2>
+                            <hr class="star-primary">
+                            <img src="./img/portfolio/safe.png" class="img-responsive img-centered" alt="">
+                            <h1>jQuery Event Handling</h1>
+                            <p>jQuery normalizes an event structure across browsers and provides cross-browser consistency for properties such as
+                                the event name, the page coordinates of the mouse, the element where the event originated along with any other
+                                element related to the event, and information such as whether a meta-key or specific mouse button was pressed.</p>
+                            <div id="example-5-1" class = "example">
+                            </div><!--<example-5-1>-->
+                            <ul class=list-inline item-details value="choice">
+                        			<li>
+                        			    <strong><a href="#" id="sel" value="Reset">Reset to Default</a>
+                        			    </strong>
+                        			</li>
+                        			<li><strong><a id="evt-1" href="#">Mouse Event Handlers</a>
+                        			    </strong>
+                        			</li>
+                        		    <li><strong><a id="evt-2" href="#">Key Event Handlers</a>
+                        			    </strong>
+                        			</li>
+                        	</ul>
+                            <h2>Binding and Unbinding Events Example</h2>
+                               <p>jQuery makes it simple to start and stop listening to events using the <code>on()</code> and <code>off()</code> functions.
+                                    You just need to supply the name of the event you want to listen to and a function to handle it</p>
+                            <div id="evtTarget-5-2" class="evtbox">Mouse over this div to see the effect. Click on it to unbind the mouseover.</div><!--<evtTarget-5-2>-->
+                            <p>Type in this text field</p>
+                            <input id="textEntry" type="text" />
+                            <p>Last character typed: <span id="keyPress"></span></p>
+                            <h2>Using Event Helpers</h2>
+                            <p>Some types of events are fairly common, and jQuery provides shorthand helper functions to make your code a little
+                                easier to write and read. Some examples:</p>
+                            <ul class="list">
+                                <li><code>hover()</code>: use this instead of mouseover and mouseleave events</li>
+                                <li><code>click()</code>: listens for click events</li>
+                                <li><code>dblclick()</code>: listens for double-click events</li>
+                                <li><code>resize()</code>: fired on the window object when the browser window resizes</li>
+                            </ul>
+                            <div id="evtTarget-5-3" class="evtbox">Mouse over this div to see the hover effect. Try clicking and double-clicking.</div>
+                            <h2>Using the jQuery Event Object</h2>
+                            <p>The jQuery Event object contains detailed information about each event that occurs in the page.</p>
+                            <p>Click on each of the DIV elements below to see event-related information for each.</p>
+                            <p>Do Not Use Spans: This will cause data to become blank</p>
+                            <div id="Div-5-41" class="evtbox inline">Mouse over and click here (Div1)</div><!--<Div-5-41>-->
+                            <div id="Div-5-42" class="evtbox inline">Mouse over and click here (Div2)</div><!--<Div-5-42>-->
+                            <div id="Div-5-43" class="evtbox inline">Mouse over and click here (Div3)</div><!--<Div-5-43>-->
+                            <div>Type some text here: <input type="text" id="input-5-4"></div>
+                            <div id="eventDetails">
+                                <h3>Event Details</h3>
+                                <div class="detailLine">
+                                    <p class="lineitem">Event type: </p><p class="lineitem" id="evtType"></p>
+                                    <p class="lineitem">Key/Button: </p><p class="lineitem" id="evtWhich"></p>
+                                </div><!--<detailLine>-->
+                                <div class="detailLine">
+                                    <p class="lineitem">Target: </p><p class="lineitem" id="evtTarget"></p>
+                                    <p class="lineitem">Related Target: </p><p class="lineitem" id="evtRelated"></p>
+                                </div><!--<detailLine>-->
+                                <div class="detailLine">
+                                    <p class="lineitem">pageX: </p><p class="lineitem" id="evtPageX"></p>
+                                    <p class="lineitem">pageY: </p><p class="lineitem" id="evtPageY"></p>
+                                </div><!--<detailLine>-->
+                                <div class="detailLine">
+                                    <p class="lineitem">clientX: </p><p class="lineitem" id="evtClientX"></p>
+                                    <p class="lineitem">clientY: </p><p class="lineitem" id="evtClientY"></p>
+                                </div><!--<detailLine>-->
+                                <div class="detailLine">
+                                    <p class="lineitem">Meta Key: </p><p class="lineitem" id="evtMetaKey"></p>
+                                    <p class="lineitem">data: </p><p class="lineitem" id="evtData"></p>
+                                </div><!--<detailLine>-->
+                            </div><!--<eventDetails>-->
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div><!--<modal-body>-->
+                    </div><!--<col-lg-8 col-lg-offset-2>-->
+                </div><!--<row>-->
+            </div><!--<container>-->
+        </div><!--<modal-content>-->
+    </div><!--<portfolio-modal modal fade>-->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div><!--rl-->
+                </div><!--lr-->
+            </div><!--close-modal-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body" id="content-6-1">
+                            <h2>AJAX</h2>
+                            <hr class="star-primary">
+                            <img src="./img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
+                            <ul class="list-inline item-details" value="choice">
+                                <li>
+                                    <strong><a href="#" id="sel" value="Reset">Reset to Default</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="ajx-1" href="#">AJAX Text File</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="ajx-2" href="#">AJAX HTML File</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <p>One of jQuery's great strengths is how it simplifies working with AJAX. jQuery provides high-level wrapper functions
+                            for retrieving data, working with different data types, handling errors, and monitoring the AJAX request process.</p>
+                            <ul class="list" id="list-6-1">
+                                <li><code>ajax()</code>: used to perform generic AJAX requests</li>
+                                <li><code>load()</code>: loads AJAX content directly into a page element</li>
+                            </ul>
+                            <div id="example-6-1" class="example" value="ajax">
+                            </div><!--example-6-1-->
+                            <ul class="list-inline item-details" value="choice">
+                                <li>
+                                    <strong><a href="#" id="sel" value="Reset">Reset to Default</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="ajx-3" href="#">Test Ajax File</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <h2>Using the basic Ajax function</h2>
+                            <p>The <code>$.ajax()</code> function is used to perform basic AJAX requests. It can be customized using a variety of parameters.</p>
+                            <p>If successful, the returned data will appear here:</p>
+                            <p id="ajaxContent-1" class ="ajaxs" value = "ajax"></p>
+                            <ul class="list-inline item-details" value="choice">
+                                <li>
+                                    <strong><a href="#" id="sel" value="Reset">Reset to Default</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="ajx-4" href="#">Get Ajax File</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="ajx-5" href="#">Load Ajax File</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="ajx-6" href="#">Load P With Id 2 Only</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <h2>The Ajax Helper Functions</h2>
+                            <p>It turns out that certain scenarios, such as retrieving data via AJAX and then inserting the returned content into
+                                an element on the page, are pretty common in Web development.</p>
+                            <p>jQuery provides a set of helper functions that make these scenarios easier.</p>
+                            <p>Content will be inserted into this div:</p>
+                            <p id="ajaxContent-2" class ="ajaxs" value = "ajax"></p>
+                            <ul class="list-inline item-details" value="choice">
+                                <li>
+                                    <strong><a href="#" id="sel" value="Reset">Reset to Default</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="ajx-7" href="#">Get XML File</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a id="ajx-8" href="#">Load JSON via Flickr API</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <h2>Working With Different Data Types</h2>
+                            <p>Using AJAX, it is possible to retrieve and work with different types of data. In this example, we will write jQuery
+                                code to work with JSON and XML data.</p>
+                            <ul class="list" id="list-6-4">
+                                <li>For the XML, we'll use a local file that contains a simple XML structure. </li>
+                                <li>For the JSON example we'll use the public Flickr API to retrieve images that match a set of parameters.</li>
+                            </ul>
+                            <p>The returned data will be inserted into this div:</p>
+                            <div id="ajaxContent-3" class="ajaxs" value="ajax"></div><!--ajaxContent-3-->
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div><!--modal-body-->
+                    </div><!--col-lg-8 col-lg-offset-2-->
+                </div><!--row-->
+            </div><!--container-->
+        </div><!--modal-content-->
+    </div><!--portfolio-modal modal fade-->
