@@ -1,11 +1,13 @@
 {
-  "name": "website",
+  "name": "cyril-portfolio-site",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "node": "~6.10.2",
+    "compression": "^1.6.2",
     "body-parser": "~1.16.0",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.0",
@@ -14,11 +16,20 @@
     "express-enforces-ssl": "^1.1.0",
     "forcedomain": "^0.8.1",
     "helmet": "^3.5.0",
+    "init-package-json": "^1.10.1",
     "mailgun-js": "^0.9.1",
     "morgan": "~1.7.0",
     "serve-favicon": "~2.3.2"
   },
   "devDependencies": {
-    "compression": "^1.6.2"
-  }
+    
+  },
+  "description": "Portfolio website",
+  "main": "app.js",
+  "keywords": [
+    "Web",
+    "Dev"
+  ],
+  "author": "Cyril Kalikin",
+  "license": "ISC"
 }
