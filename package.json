@@ -6,7 +6,6 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "node": "~6.10.2",
     "compression": "^1.6.2",
     "body-parser": "~1.16.0",
     "cookie-parser": "~1.4.3",
