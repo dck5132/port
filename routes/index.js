@@ -20,7 +20,7 @@ router.get('/', function(req, res, next) {
   var modalService = [];
   var about = data.about;
   var skills = data.skills;
-  var item = "https://testsite-cyril.herokuapp.com/";
+  var item = "https://cyrils-web-dev.herokuapp.com/";
   data.modals.forEach(function(item) {
     modalImg = modalImg.concat(item.images);
     modalAlt = modalAlt.concat(item.alt);
@@ -54,7 +54,7 @@ router.use(bodyParser.urlencoded(
 router.post('/', function(req, res, next){
   var ref = req.headers.referer;
   
-  if(ref == 'https://testsite-cyril.herokuapp.com/') {
+  if(ref == 'https://cyrils-web-dev.herokuapp.com//') {
     var name = req.body.name;
     var email = req.body.email;
     var phone = req.body.phone;
