@@ -54,7 +54,7 @@ router.use(bodyParser.urlencoded(
 router.post('/', function(req, res, next){
   var ref = req.headers.referer;
   
-  if(ref == 'https://cyrils-web-dev.herokuapp.com//') {
+  if(ref == 'https://cyrils-web-dev.herokuapp.com/') {
     var name = req.body.name;
     var email = req.body.email;
     var phone = req.body.phone;
