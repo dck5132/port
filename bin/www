@@ -7,7 +7,11 @@
 var app = require('../app');
 var debug = require('debug')('website:server');
 var http = require('http');
+var https = require('https');
 
+setInterval(function() {
+    https.get("https://cyrils-web-dev.herokuapp.com/");
+}, 300000); // every 5 minutes (300000)
 /**
  * Get port from environment and store in Express.
  */
