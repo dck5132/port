@@ -6,7 +6,8 @@
     "start": "node ./bin/www"
   },
   "engines": {
-    "node": "6.10.2"
+    "node": "6.10.2",
+    "npm": "5.2.0"
   },
   "dependencies": {
     "compression": "^1.6.2",
